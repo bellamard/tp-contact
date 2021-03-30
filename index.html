@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="contenaire">
+            <div class="titre">
+                <h1>
+                    Repertoire de Contact
+                </h1>
+            </div>
+            <div id="mere_flex">
+                <div id="contenaire_formulaire">
+                    <div class="titre">
+                        <h2>
+                            Formulaire de contact
+                        </h2>
+                    </div>
+
+                    <form action="" id="formulaire">
+                        <div class="item">
+                            <label for="prenom">
+                                Prénom</label>
+                            <input type="text" name="prenom" id="prenom">
+                        </div>
+                        <div class="item">
+                            <label for="nom">Nom</label>
+                            <input type="text" name="nom" id="nom">
+                        </div>
+                        <div class="item">
+                            <label for="groupe">Groupe</label>
+                            <select name="groupe" id="groupe">
+                                <option value="0" selected hidden>selection</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select><br>
+                        </div>
+
+                        <div class="item">
+                            <label for="bio">bio</label>
+                            <textarea name="bio" id="bio" cols="30" rows="10"></textarea><br>
+                        </div>
+                        <div class="fiche">
+                            <label for="files">choisir un fichier</label>
+                            <input type="File" value="choisir un fichier" id="files" accept="image/png, image/jpeg">
+                            <img src="IMG_20210306_094001.jpg" alt="img_users" id="img_users">
+                        </div>
+                        <div class="ele">
+                            <a href="#" id="creer" class="btn">Créer</a>
+                            <a href="#" id="reint" class="btn">réint</a>
+                        </div>
+
+
+                    </form>
+
+                </div>
+                <div id="contact">
+                    <div class="titre">
+                        <h2>
+                            Liste de contact
+                        </h2>
+                    </div>
+                    <div class="contenaire_items">
+                        <div class="del">
+                            <a href="#" id="supprime" class="supp">X</a>
+                        </div>
+                        <div class="contenaire_item">
+                            <div class="use_img">
+                                <img src="IMG_20210306_094001.jpg" alt="" id="user" class="user_image">
+                            </div>
+                            <div class="texte">
+                                <h3 class="t_nom">x-files</h3>
+                                <h4 class="t_groupe">40</h4>
+                                <p class="t_bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ab dolorem cupiditate cumque earum laboriosam doloribus ea dignissimos sed eum. Dolorum odit cum architecto, commodi corrupti in! Quas, corporis corrupti!</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html></div></body></html>

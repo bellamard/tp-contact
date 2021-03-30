@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position:relative;   
+    
+  
+}
+.contenaire{
+    width: 80vw;
+    height: 90%;
+    margin:0 auto;
+    border: 1px solid black;
+    position:relative;
+    
+}
+.titre{
+    background-color: #2d91ea;
+    padding: 5px 5px;
+    margin-bottom: 5px;
+    color:white;
+}
+
+#mere_flex{
+    display: flex;  
+    margin: auto;
+    padding: 5px;
+    width:80%;   
+    height: 90%; 
+    justify-self: center;  
+}
+/* formulaire */
+#contenaire_formulaire{
+    margin: 0 1%;
+    width:48%;
+    background-color: #f7f7f7;
+    border: 1px solid #2d91ea;
+    height: 89vh;
+}
+
+#fomulaire{
+    padding: 5px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 10px;
+}
+.fiche{
+    display: block;
+    margin: 5px 10px;
+    justify-content: space-between;
+}
+.ele{
+    display: flex;
+    margin: 5px 10px;
+    justify-content: space-between;
+}
+.btn{
+    
+    display: block;
+    width: 40%;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color:aquamarine;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+
+}
+img{
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+}  
+#contact{
+    margin: 0 1%;
+    width:48%;
+    background-color: #f7f7f7;
+    border: 1px solid #2d91ea;
+    overflow-y: auto;
+    height: 89vh;
+
+} 
+.contenaire_items{
+    margin: 5px;
+    border: 1px solid #2d91ea;
+    padding: 5px;
+}
+.contenaire_item{
+    display: flex;
+    padding: 2px;
+    border: 1px solid #2d91ea;
+}
+.texte{
+   margin: 5px; 
+   
+}
+.user_image{
+    border-radius: 100%;
+}
+.supp{
+    text-decoration: none;
+    list-style: none;
+    padding: 2px;
+    margin: 5px;
+    background-color: blue;
+    color: white;
+    border-radius: 100%;
+}
+input[type='file']{
+    display: none;
+}
