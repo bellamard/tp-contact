@@ -121,7 +121,7 @@ function suppr_item(Event)
 {
     Event.preventDefault();
     var elt = Event.target;
-    var elt1 = elt.parentNode.parentNode.parentNode;
+    var elt1 = elt.parentNode.parentNode;
     
     elt1.remove();
 }
